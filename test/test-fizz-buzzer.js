@@ -8,7 +8,7 @@ describe('fizzBuzzer', function(){
         const normalCases = [
             { a: 3, expected: "fizz"},
             { a: 5, expected: "buzz"},
-            { a: 15, expected: "fizzbuzz"}
+            { a: 15, expected: "fizz-buzz"}
         ];
 
         normalCases.forEach(function(input){
